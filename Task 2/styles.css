@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 35px;
+    background-color: rgba(255, 255, 255, 0.775);
+    position: sticky;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.logo h1 {
+    color: rgba(30, 118, 190, 0.927);
+    font-style: oblique;
+    font-size: 35px;
+}
+
+nav {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-link {
+    color: rgba(37, 123, 194, 0.927);
+    padding: 0 10px;
+}
+
+.nav-link:hover {
+    color: rgba(0, 60, 121, 0.93);
+    cursor: pointer;
+}
+
+.hero {
+    display: flex;
+    align-items: start;
+    height: 94vh;
+    justify-content: space-between;
+}
+
+.hero-text{
+    padding: 200px 100px;
+}
+
+.bio {
+    padding-top: 65px;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.yogesh {
+    height: 550px;
+    width: 550px;
+    margin: 180px 150px 40px 0px;
+}
+
+.loc {
+    display: flex;
+    justify-content: center;
+}
+
+.city {
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+.hero h1{
+    color: rgba(0, 108, 108, 0.865);
+}
+
+.hero-text h3{
+    font-size: 25px;
+}
+
+.name h2 {
+    font-size: 55px;
+    color: rgba(30, 118, 190, 0.927);
+
+}
+
+.contact {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("../images/matrix.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.h-project {
+    text-align: center;
+}
+
+.container {
+    margin-top: 100px;
+    border: 1px solid black;
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: rgba(28, 113, 203, 0.922);
+    width: 70%;
+}
+
+.container h2 {
+    padding: 50px 0px;
+    font-size: 50px;
+}
+
+label[for="fname"] {
+    font-size: 25px;
+}
+
+label[for="subject"] {
+    font-size: 25px;
+}
+
+#fname {
+    width: 45%;
+    padding: 10px 10px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.submit {
+    padding: 5px 5px;
+    font-size: 15px;
+    margin: 5px 0 35px 0;
+
+}
+
+textarea {
+    height: 50px;
+    width: 45%;
+    font-size: 20px;
+    padding: 10px 10px;
+
+}
+
+.socials {
+    height: 50px;
+    width: 50px;
+}
+
+#l, #g {
+    padding: 10px 10px;
+    cursor: pointer;
+}
